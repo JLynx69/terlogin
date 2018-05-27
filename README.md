@@ -13,7 +13,8 @@ cara install :
 * mulai ulang termux
 * Enjoy :)
 
-contacts me :
+contact me :
 
 Facebook : [Jack Lynx](https://www.facebook.com/aiden.pearce.589100)
-Email : joetac210@gmail.com
+
+Email    : joetac210@gmail.com
