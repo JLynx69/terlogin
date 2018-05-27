@@ -14,8 +14,8 @@ cara install :
 * Enjoy :)
 
 
-contact me :
+> contact me :
 
-Facebook : [Jack Lynx](https://www.facebook.com/aiden.pearce.589100)
+> Facebook : [Jack Lynx](https://www.facebook.com/aiden.pearce.589100)
 
-Email    : joetac210@gmail.com
+> Email    : joetac210@gmail.com
