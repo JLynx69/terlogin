@@ -14,7 +14,7 @@ cara install :
 * Enjoy :)
 
 
-> contact me :
+contact me :
 
 > Facebook : [Jack Lynx](https://www.facebook.com/aiden.pearce.589100)
 
