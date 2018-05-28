@@ -18,7 +18,6 @@ def restart():
 	os.execl(ngulang, ngulang, *sys.argv)
 
 def main():
-	print "\033[1;32mTermux Login\n\033[00m"
 	uname = raw_input("username : ")
 	if uname == username:
 		pwd = raw_input("password : ")
