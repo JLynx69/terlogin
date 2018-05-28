@@ -4,8 +4,9 @@ import os, sys
 # UBAH JADI USERNAME DAN PASSWORD MU
 
 
-username = 'jack'      # ganti 'jack' jadi 'username' mu
-password = 'password'  # ganti 'password' jadi 'password' mu
+username = 'user'      # ganti 'user' jadi 'sesuka' mu
+password = 'password'  # ganti 'password' jadi 'sesuka' mu
+
 
 # Tekan ctrl+x jika sudah di ubah
 # atau vol-down + x
