@@ -3,6 +3,7 @@ pkg update && pkg upgrade -y
 pkg install python2 nano
 echo ""
 echo -n -e """silahkan edit username dan password nya !!!
+
 \t\tPERHATIAN !!!
 
 Dilarang mengubah code tanpa ijin
