@@ -7,6 +7,8 @@ import os, sys
 username = 'jack'      # ganti 'jack' jadi 'username' mu
 password = 'password'  # ganti 'password' jadi 'password' mu
 
+# Tekan ctrl+x jika sudah di ubah
+# atau vol-down + x
 
 # JANGAN UBAH CODE DI BAWAH !!!
 
@@ -23,7 +25,7 @@ def main():
 		if pwd == password:
 			print "\n\033[1;34mWelcome to Termux", username
 			print "\033[00m"
-			os.system('sh')
+			sys.exit()
 
 		else:
 			print "\n\033[1;31mInvalid Password !!!\033[00m"
