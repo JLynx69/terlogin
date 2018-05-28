@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
-apt update && apt update
-apt install python2 nano
+pkg update && pkg upgrade -y
+pkg install python2 nano
 echo -n -e """silahkan edit username dan password nya !!!
 \e[1;31m\t\tPERHATIAN !!!
 \e[0m
