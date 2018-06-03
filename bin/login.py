@@ -5,8 +5,9 @@ import getpass
 # UBAH JADI USERNAME DAN PASSWORD MU
 
 
-username = 'user'      # ganti 'user' jadi 'sesuka' mu
-password = 'password'  # ganti 'password' jadi 'sesuka' mu
+password = 'password'  
+
+# ganti 'password' jadi 'sesuka' mu
 
 
 # Tekan ctrl+x jika sudah di ubah
@@ -19,23 +20,15 @@ def restart():
 	os.execl(ngulang, ngulang, *sys.argv)
 
 def main():
-	uname = raw_input("username : ")
-	if uname == username:
-		pwd = getpass.getpass("password : ")
+	pwd = getpass.getpass("Masukan Password : ")
 
-		if pwd == password:
-			print "\n\033[1;34mWelcome to Termux", username
-			print "\033[00m"
-			sys.exit()
-
-		else:
-			print "\n\033[1;31mInvalid Password !!!\033[00m"
-			print "Login Ulang\n"
-			restart()
+	if pwd == password:
+		print "\n\033[1;32m\t [+] Welcome to Termux [+]"
+		print "\033[00m"
+		sys.exit()
 
 	else:
-		print "\n\033[1;31mInvalid Username !!!\033[00m"
-		print "Login Ulang\n"
+		print "\n\033[1;31mInvalid Password !!!\033[00m\n"
 		restart()
 
 try:
