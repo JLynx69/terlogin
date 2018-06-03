@@ -6,6 +6,7 @@ termux login v3.0
 * Fix bug login loop
 * Remove username
 * add uninstall file
+* add feature invisible password
 
 ###### Installation :
 
@@ -15,8 +16,8 @@ termux login v3.0
 * cd terlogin
 * chmod +x *
 * ./install
-* edit username dan passwordnya
-* mulai ulang termux
+* raplace password to your password
+* restart termux
 * Enjoy :)
 
 ###### Uninstall :
@@ -25,7 +26,7 @@ termux login v3.0
 * ./uninstall
 
 
-contact me :
+###### contact me :
 
 > Facebook : [Jack Lynx](https://www.facebook.com/Jlynx69)
 
