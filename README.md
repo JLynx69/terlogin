@@ -22,6 +22,6 @@ Uninstall :
 
 contact me :
 
-> Facebook : [Jack Lynx](https://www.facebook.com/aiden.pearce.589100)
+> Facebook : [Jack Lynx](https://www.facebook.com/Jlynx69)
 
 > Email    : joetac210@gmail.com
