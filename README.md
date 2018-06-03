@@ -16,7 +16,7 @@ termux login v3.0
 * cd terlogin
 * chmod +x *
 * ./install
-* raplace password to your password
+* change password to your password
 * restart termux
 * Enjoy :)
 
