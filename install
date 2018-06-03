@@ -7,7 +7,8 @@ echo -n -e """silahkan edit username dan password nya !!!
 \t\tPERHATIAN !!!
 
 Dilarang mengubah code tanpa ijin
-jika sudah mengerti silahkan lanjut"""
+jika sudah mengerti silahkan lanjut [ENTER]"""
+read perhatian
 echo ""
 sleep 5
 mkdir /data/data/com.termux/files/home/.terlogin
