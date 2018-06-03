@@ -8,7 +8,8 @@ cara install :
 * pkg install git
 * git clone https://github.com/JLynx69/terlogin
 * cd terlogin
-* sh install.sh
+* chmod +x *
+* ./install
 * edit username dan passwordnya
 * mulai ulang termux
 * Enjoy :)
@@ -16,7 +17,6 @@ cara install :
 Uninstall :
 
 * cd terlogin
-* chmod +x uninstall
 * ./uninstall
 
 
