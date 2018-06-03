@@ -104,8 +104,7 @@ python2 /data/data/com.termux/files/home/.terlogin/login.py
 """ >> /data/data/com.termux/files/usr/etc/bash.bashrc
 nano /data/data/com.termux/files/home/.terlogin/login.py
 
-echo "&ijo "
-echo -e "\n## Thanks For Using Terlogin ##"
+echo -e "\n\033[1;32m## Thanks For Using Terlogin ##"
 echo -e "\nsilahkan mulai ulang termux\n"
 echo ""
 sleep 10
