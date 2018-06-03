@@ -2,7 +2,12 @@
 
 termux login v3.0
 
-cara install :
+###### New update :
+* Fix bug login loop
+* Remove username
+* add uninstall file
+
+###### Installation :
 
 * pkg update && pkg upgrade
 * pkg install git
@@ -14,7 +19,7 @@ cara install :
 * mulai ulang termux
 * Enjoy :)
 
-Uninstall :
+###### Uninstall :
 
 * cd terlogin
 * ./uninstall
