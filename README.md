@@ -13,6 +13,12 @@ cara install :
 * mulai ulang termux
 * Enjoy :)
 
+Uninstall :
+
+* cd terlogin
+* chmod +x uninstall
+* ./uninstall
+
 
 contact me :
 
