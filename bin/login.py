@@ -1,21 +1,23 @@
 #termux login
-import os, sys
-import getpass
-
-# UBAH JADI PASSWORD MU
-
 
 password = 'password'
 
 
+
 # ganti 'password' jadi 'sesuka' mu
-# rapalce 'password' to 'whatever'
+# change 'password' to 'whatever'
+
 
 
 # Tekan ctrl+x jika sudah di ubah
 # atau vol-down + x
 
+
+
 # JANGAN UBAH CODE DI BAWAH !!!
+
+import os, sys
+import getpass
 
 def restart():
 	ngulang = sys.executable
