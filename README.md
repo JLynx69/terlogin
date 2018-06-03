@@ -1,6 +1,6 @@
 # terlogin
 
-termux login v1.2
+termux login v3.0
 
 cara install :
 
