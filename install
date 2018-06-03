@@ -6,6 +6,7 @@ pkg install python2 nano
 clear
 echo -n "Waiting Data!!!"
 sleep 3
+clear
 echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
