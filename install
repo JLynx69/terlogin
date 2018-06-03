@@ -12,6 +12,87 @@ jika sudah mengerti silahkan lanjut [ENTER]"""
 read perhatian
 echo ""
 sleep 3
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
+echo -e "$abang Menghapus Data"
+sleep 0.1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 0.1
+clear
+echo -e "$biru Menghapus Data"
+sleep 0.1
+clear
 mkdir /data/data/com.termux/files/home/.terlogin
 mv bin/login.py /data/data/com.termux/files/home/.terlogin
 rm -rf bin
