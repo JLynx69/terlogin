@@ -20,6 +20,6 @@ nano /data/data/com.termux/files/home/.terlogin/login.py
 
 echo ""
 echo -e "\n## Thanks For Using Terlogin ##"
-echo -e "silahkan mulai ulang termux\n"
+echo -e "\nsilahkan mulai ulang termux\n"
 echo ""
 sleep 10
