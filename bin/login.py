@@ -5,7 +5,7 @@ import getpass
 # UBAH JADI USERNAME DAN PASSWORD MU
 
 
-password = 'password'  
+password = 'password'
 
 # ganti 'password' jadi 'sesuka' mu
 
