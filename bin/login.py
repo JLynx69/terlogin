@@ -2,12 +2,14 @@
 import os, sys
 import getpass
 
-# UBAH JADI USERNAME DAN PASSWORD MU
+# UBAH JADI PASSWORD MU
 
 
 password = 'password'
 
+
 # ganti 'password' jadi 'sesuka' mu
+# rapalce 'password' to 'whatever'
 
 
 # Tekan ctrl+x jika sudah di ubah
@@ -30,7 +32,6 @@ def main():
 	else:
 		print "\n\033[1;31mInvalid Password !!!\033[00m\n"
 		restart()
-		os.system('clear')
 
 try:
 	main()
