@@ -1,6 +1,28 @@
 #!/bin/bash
+abang='\033[1;31m'
+ijo='\033[1;32m'
+biru='\033[1;34m'
 echo -e "\033[1;32m [ UNINSTALL TERLOGIN ] \033[0m"
-sleep 4
+sleep 3
+clear
+echo -e "$abang Menghapus Data"
+sleep 1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 1
+clear
+echo -e "$biru Menghapus Data"
+sleep 1
+clear
+echo -e "$abang Menghapus Data"
+sleep 1
+clear
+echo -e "$ijo Menghapus Data"
+sleep 1
+clear
+echo -e "$biru Menghapus Data"
+sleep 1
+clear
 rm -rf ../.terlogin
 rm -rf /data/data/com.termux/files/home/terlogin
 echo """
@@ -8,4 +30,4 @@ command_not_found_handle() {
 		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
 """ > ../../usr/etc/bash.bashrc
-echo -e "\033[1;32m [ CLEAR ] \033[0m"
+echo -e "\n\n\033[1;32m [ CLEAR ] \033[0m"
