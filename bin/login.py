@@ -20,7 +20,7 @@ def restart():
 	os.execl(ngulang, ngulang, *sys.argv)
 
 def main():
-	pwd = getpass.getpass("Masukan Password : ")
+	pwd = getpass.getpass("\033[1;31mInsert Password \033[0m: ")
 
 	if pwd == password:
 		print "\n\033[1;32m\t [+] Welcome to Termux [+]"
