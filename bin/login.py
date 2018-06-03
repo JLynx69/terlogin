@@ -1,5 +1,6 @@
 #termux login
 import os, sys
+import getpass
 
 # UBAH JADI USERNAME DAN PASSWORD MU
 
@@ -20,7 +21,7 @@ def restart():
 def main():
 	uname = raw_input("username : ")
 	if uname == username:
-		pwd = raw_input("password : ")
+		pwd = getpass.getpass("password : ")
 
 		if pwd == password:
 			print "\n\033[1;34mWelcome to Termux", username
