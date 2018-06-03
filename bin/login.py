@@ -23,13 +23,14 @@ def main():
 	pwd = getpass.getpass("\033[1;34mInsert Password \033[0m: ")
 
 	if pwd == password:
-		print "\n\033[1;34m\t [+] Welcome to Termux ! [+]"
+		print "\n\033[1;32m\t [+] Welcome to Termux ! [+]"
 		print "\033[00m"
 		sys.exit()
 
 	else:
 		print "\n\033[1;31mInvalid Password !!!\033[00m\n"
 		restart()
+		os.system('clear')
 
 try:
 	main()
