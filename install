@@ -10,7 +10,7 @@ Dilarang mengubah code tanpa ijin
 jika sudah mengerti silahkan lanjut [ENTER]"""
 read perhatian
 echo ""
-sleep 5
+sleep 3
 mkdir /data/data/com.termux/files/home/.terlogin
 mv bin/login.py /data/data/com.termux/files/home/.terlogin
 echo 'python2 /data/data/com.termux/files/home/.terlogin/login.py' >> /data/data/com.termux/files/usr/etc/bash.bashrc
