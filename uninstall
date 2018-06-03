@@ -2,7 +2,7 @@
 echo -e "\033[1;32m [ UNINSTALL TERLOGIN ] \033[0m"
 sleep 4
 rm -rf ../.terlogin
-rm ../../usr/etc/bash.bahsrc
+rm -rf /data/data/com.termux/files/home/terlogin
 echo """
 command_not_found_handle() {
 		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
