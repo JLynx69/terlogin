@@ -2,7 +2,6 @@
 abang='\033[1;31m'
 ijo='\033[1;32m'
 biru='\033[1;34m'
-pkg update && pkg upgrade -y
 pkg install python2 nano
 clear
 echo -n "Waiting Data!!!"
