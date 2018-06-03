@@ -6,96 +6,96 @@ pkg update && pkg upgrade -y
 pkg install python2 nano
 clear
 echo ""
-echo -n -e """silahkan edit username dan password nya !!!
-
-\t\tPERHATIAN !!!
-
-Dilarang mengubah code tanpa ijin
-jika sudah mengerti silahkan lanjut [ENTER]"""
-read perhatian
-echo ""
 sleep 3
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$abang Menghapus Data"
+echo -e "$abang Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$ijo Menghapus Data"
+echo -e "$ijo Menginstall Terlogin"
 sleep 0.1
 clear
-echo -e "$biru Menghapus Data"
+echo -e "$biru Menginstall Terlogin"
 sleep 0.1
 clear
+echo ""
+echo -n -e """$ijo silahkan Ganti password nya !!!
+$abang
+\t\tPERHATIAN !!!
+$ijo
+Dilarang mengubah code tanpa ijin
+jika sudah mengerti silahkan lanjut $biru[ENTER]"""
+read perhatian
 mkdir /data/data/com.termux/files/home/.terlogin
 mv bin/login.py /data/data/com.termux/files/home/.terlogin
 rm -rf bin
@@ -105,7 +105,7 @@ python2 /data/data/com.termux/files/home/.terlogin/login.py
 """ >> /data/data/com.termux/files/usr/etc/bash.bashrc
 nano /data/data/com.termux/files/home/.terlogin/login.py
 
-echo ""
+echo "&ijo "
 echo -e "\n## Thanks For Using Terlogin ##"
 echo -e "\nsilahkan mulai ulang termux\n"
 echo ""
